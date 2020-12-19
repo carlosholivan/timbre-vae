@@ -16,8 +16,8 @@ class InputsConfig(Config):
 
 class ParamsConfig(Config):
 
-    DATA_PATH               =       './data'
-    TRAINED_MODELS_PATH     =       './trained_models'      #  directory where to store weigths during training
+    DATA_PATH               =       '../data'
+    TRAINED_MODELS_PATH     =       '../trained_models'      #  directory where to store weigths during training
 
     BATCH_SIZE              =       1
     NUM_CHANNELS            =       64                      #  output channels after first convolution
@@ -33,7 +33,7 @@ class ParamsConfig(Config):
 
 class PlotsConfig(Config):
 
-    PLOTS_PATH              =       './plots'
+    PLOTS_PATH              =       '../plots'
     COLORS                  =       {'violin'        : '#aed6f1',
                                      'viola'         : '#5499c7',
                                      'cello'         : '#2e86c1',

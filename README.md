@@ -4,9 +4,10 @@
 <br>
 
 
-A python library for audio features extraction.
+Variational Autoencoder for Timbre...
 
 beta.0 (December 2020) version
+
 
 ## Documentation
 
@@ -22,6 +23,22 @@ See documentation [here]()
 * [Flask]()
 * [Flask cors]()
 * [Coverage]()
+
+
+## Latent Space Visualizations
+
+![](plots/html_2d_latent_space_0epochs.png)
+
+![](plots/html_3d_latent_space_0epochs.png)
+
+## CQT Reconstructions
+
+![](plots/reconstruction_animation.gif)
+
+
+## Dataset
+
+* Training: London Philarmonic Orchestra dataset
 
 
 ## Repository Structure
